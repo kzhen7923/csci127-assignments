@@ -1,6 +1,6 @@
 #Kaitlyn Zhen and Matthew Barron
 
-def F(n):
+def collatz(n):
     while n != 1:
         if n % 2 == 0:
             n = n / 2
@@ -8,7 +8,9 @@ def F(n):
         elif n % 2 != 0:
             n = (3 * n) + 1
             print(n)
-        else:
-            print(n)
+    print(n)
+        
             
-F(6)
+collatz(1)
+collatz(6)
+collatz(9)
