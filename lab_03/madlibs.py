@@ -14,7 +14,7 @@ paragraph2 = "Sam <VERB> the <NOUN> and then <VERB> the <NOUN> later"
 paragraph3 = "<HERO> <VERB> in the <NOUN> and then <HERO> <VERB> later."
 
 
-def choose_random(l): #chooses random element in list
+def choose_random(l): # chooses random element in list
     return l[random.randrange(0, len(l))]
 
 def stringify(l):   # turns list into string
