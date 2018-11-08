@@ -51,6 +51,12 @@ print("Test for mode")
 print(m)
 print("Mode is " + str(mode(m)))
 
+
+
+def fast_mode(l,max_value):
+    tallies = []
+    for i in range(max_value):
+        
         
         
     
