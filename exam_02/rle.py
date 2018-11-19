@@ -11,10 +11,10 @@ def encode(string):
                 count += 1
         sub_list.append(count)        
         whole_list.append(sub_list)
+        i = i + 1
         
     return whole_list
 
-print(encode("aaddssaa"))
+
+print(encode("aacccddaa"))       
         
-        
-    
